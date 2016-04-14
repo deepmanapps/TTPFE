@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="Measurement"
+        >
+        <menu>
+            <item
+                android:id="@+id/cellsettings"
+                android:icon="@drawable/cellsettingsvector"
+                android:title="Cell Settings" />
+            <item
+                android:id="@+id/voice"
+                android:icon="@drawable/voice2"
+                android:title="Voice Test" />
+            <item
+                android:id="@+id/data"
+                android:icon="@drawable/dataexchange"
+                android:title="Data Test" />
+        </menu>
+    </item>
+    <item android:title="Tracking">
+        <menu>
+            <item
+                android:id="@+id/gmap"
+                android:icon="@drawable/mappv"
+                android:title="Signal Strength" />
+            <item
+                android:id="@+id/arcgis"
+                android:icon="@drawable/coverage"
+                android:title="Coverage" />
+        </menu>
+    </item>
+    <item android:title="Plot">
+        <menu>
+            <item
+                android:id="@+id/realtime"
+                android:icon="@drawable/realtime2"
+                android:title="Real Time" />
+
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#283593</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="couleur1">#3d8beb</color>
+    <color name="couleur2">#bcd4f2</color>
+    <color name="couleur3">#9ef443</color>
+    <color name="couleur4">#d443f4</color>
+    <color name="couleur5">#e085ec</color>
+    <color name="couleurlab1">#f9dc04</color>
+    <color name="couleurlab2">#f95001</color>
+    <color name="couleurtxt">#e91256</color>
+    <color name="tower">#ffffff</color>
+</resources>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgall"
+    android:orientation="vertical"
+    tools:context="dhafer.tunisietelecom.AddCellular"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:alpha="0.6"
+        android:layout_height="40dp"
+        android:background="@drawable/cornertower">
+        <TextView
+            android:id="@+id/titretower"
+            android:layout_marginTop="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="Add Tower"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:alpha="0.6"
+        android:orientation="vertical"
+        android:layout_height="250dp"
+        android:background="@drawable/cornertower"
+        android:layout_weight="0.80">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableRow android:layout_marginTop="3dp">
+            <TextView
+                android:layout_marginTop="11dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cell ID"/>
+            <EditText
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/editcorner"
+                android:id="@+id/editcellid" />
+            </TableRow>
+            <TableRow android:layout_marginTop="3dp">
+            <TextView
+                android:layout_marginTop="11dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Key "/>
+            <EditText
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="10dp"
+                android:text="d44327c9-111b-4ff0-9708-a3ced4e0dc64"
+                android:background="@drawable/editcorner"
+                android:id="@+id/editkey" />
+        </TableRow>
+            <TableRow android:layout_marginTop="3dp">
+            <TextView
+                android:layout_marginTop="11dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Latitude "/>
+            <EditText
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/editcorner"
+                android:id="@+id/editlat" />
+        </TableRow>
+            <TableRow android:layout_marginTop="3dp">
+                <TextView
+                    android:layout_marginTop="11dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Longitude "/>
+                <EditText
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="10dp"
+
+
+                    android:background="@drawable/editcorner"
+                    android:id="@+id/editlong" />
+            </TableRow>
+            <TableRow android:layout_marginTop="3dp">
+                <TextView
+                    android:layout_marginTop="11dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mcc "/>
+                <EditText
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="10dp"
+
+
+                    android:background="@drawable/editcorner"
+                    android:id="@+id/editmcc" />
+            </TableRow>
+            <TableRow android:layout_marginTop="3dp">
+                <TextView
+                    android:layout_marginTop="11dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mnc "/>
+                <EditText
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="10dp"
+
+
+                    android:background="@drawable/editcorner"
+                    android:id="@+id/editmnc" />
+            </TableRow>
+            <TableRow android:layout_marginTop="3dp">
+                <TextView
+                    android:layout_marginTop="11dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lac "/>
+                <EditText
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="10dp"
+
+
+                    android:background="@drawable/editcorner"
+                    android:id="@+id/editlac" />
+            </TableRow>
+            <TableRow android:layout_marginTop="3dp">
+            <TextView
+                android:layout_marginTop="11dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Operator "/>
+            <EditText
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/editcorner"
+                android:id="@+id/editop" />
+        </TableRow>
+            <TableRow android:layout_marginTop="1dp">
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GPS State "/>
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                   android:src="@drawable/gps_statwrong"
+                    android:id="@+id/stategps" />
+            </TableRow>
+
+</TableLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:alpha="0.6"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/cornertower"
+        android:layout_weight="0.10">
+        <ImageView
+            android:id="@+id/searchtower"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:background="@drawable/launchtestower"
+      />
+        <ImageView
+            android:id="@+id/addingTower"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:background="@drawable/addtowercellid"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

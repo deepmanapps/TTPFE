@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgall"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="dhafer.tunisietelecom.DataTest"
+    tools:showIn="@layout/app_bar_data_test"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:alpha="0.9"
+        android:layout_height="40dp"
+        android:background="@drawable/corner">
+        <TextView
+            android:layout_marginTop="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:text="Data Test"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/corner"
+        android:alpha="0.9"
+        android:orientation="vertical">
+        <com.cardiomood.android.controls.gauge.SpeedometerGauge
+            android:layout_height="270dp"
+            android:layout_width="match_parent"
+android:layout_gravity="center"
+            android:padding="8dp"
+            android:id="@+id/speedometer" />
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="60dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:text="Ping :"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:id="@+id/valueping"
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="--------"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ms"
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:alpha="0.9"
+        android:orientation="horizontal"
+        android:layout_height="149dp"
+        android:background="@drawable/corner"
+          android:layout_gravity="center"
+        android:weightSum="1">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="152dp"
+            android:orientation="vertical"
+            android:layout_weight="0.26">
+            <LinearLayout
+                android:layout_width="148dp"
+                android:layout_height="95dp"
+                android:orientation="horizontal"
+                android:background="@drawable/bg_tester">
+
+                <ImageView
+                    android:id="@+id/needle"
+                    android:layout_width="40dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="13dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/ic_needle"
+                    android:layout_alignParentStart="true" />
+                <ImageView
+                    android:id="@+id/heart"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+
+                    android:layout_marginLeft="-18dp"
+                    android:layout_centerHorizontal="true"
+                   android:layout_gravity="bottom"
+                    android:src="@drawable/ic_heart"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:text="Downlink :"
+                    android:textSize="11sp"
+                    />
+                <TextView
+                    android:id="@+id/valuedownlink"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:text="----"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textSize="11sp"
+                    />
+                <TextView
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:text="Kbps"
+                    android:textSize="11sp"
+                    />
+
+            </LinearLayout>
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="-10dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_height="152dp"
+                android:orientation="vertical"
+                android:layout_weight="0.26">
+                <LinearLayout
+                    android:layout_width="148dp"
+                    android:layout_height="95dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/bg_tester">
+
+                    <ImageView
+                        android:id="@+id/needle2"
+                        android:layout_width="40dp"
+                        android:layout_marginBottom="9dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="13dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="30dp"
+                        android:src="@drawable/ic_needle"
+                        android:layout_alignParentStart="true" />
+                    <ImageView
+                        android:id="@+id/heart2"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+
+                        android:layout_marginLeft="-18dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="bottom"
+                        android:src="@drawable/ic_heart"/>
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:text="Uplink :"
+                    android:textSize="11sp"
+                    />
+                <TextView
+                    android:id="@+id/valueuplink"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:text="--------"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textSize="11sp"
+                    />
+                <TextView
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:text="Kbps"
+                    android:textSize="11sp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:alpha="0.9"
+        android:background="@drawable/corner"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="140dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/testdata2"
+            android:id="@+id/lchdata" />
+        <ImageButton
+            android:layout_width="140dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/getreportdata"
+            android:id="@+id/rpdata" />
+    </LinearLayout>
+</LinearLayout>

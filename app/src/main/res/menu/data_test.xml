@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/trafficstat"
+        android:orderInCategory="100"
+        android:title="Traffic Stats"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/killts"
+        android:orderInCategory="100"
+        android:title="Kill Traffic Stats"
+        app:showAsAction="never" />
+</menu>

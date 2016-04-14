@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgall"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="dhafer.tunisietelecom.VoiceTest"
+    android:orientation="vertical"
+    tools:showIn="@layout/app_bar_voice_test">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_height="230dp"
+        android:alpha="0.6"
+        android:background="@drawable/cornervoice"
+        android:orientation="vertical">
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/voicecall"/>
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="25dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp"
+    android:background="@drawable/editcorner"
+    android:id="@+id/editnumb" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/l2"
+            android:id="@+id/lch" />
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/r2"
+            android:id="@+id/rp" />
+
+
+
+    </LinearLayout>
+</LinearLayout>

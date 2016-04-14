@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/bgef"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="dhafer.tunisietelecom.CellSettings"
+    android:orientation="vertical"
+    tools:showIn="@layout/app_bar_cell_settings">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginLeft="8dp"
+    android:alpha="0.6"
+    android:layout_height="40dp"
+    android:background="@drawable/corner">
+    <TextView
+        android:id="@+id/titreserving"
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:gravity="center"
+       android:textSize="25sp"
+
+        android:textStyle="bold"
+        android:text="Serving Cell"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="180dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:orientation="horizontal">
+            <TextView
+
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Operator :"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="#283593"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/operator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TUNISIE TELEC"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Type :"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HSDPA++"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="@color/colorPrimary"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cell ID :"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/cellid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1234567"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LAC :"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/lac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1234567"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MCC :"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/mcc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1234567"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textColor="@color/colorPrimary"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Strength :"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/stsignal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1234567"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="dBm"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save Time :"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/monthyear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016-02-15"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textColor="@color/colorPrimary"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Longitude :"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/longi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30.2365987456"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Latitude :"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/lattitudee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10.23564789654"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textColor="@color/colorPrimary"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Accuracy :"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/accuracy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30.2365987456"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Elevation :"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textColor="@color/colorPrimaryDark"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/altitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="----"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="2dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="m"
+                android:textStyle="bold"
+                android:textSize="10sp"
+                android:textColor="@color/colorPrimary"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:alpha="0.6"
+        android:layout_height="40dp"
+        android:background="@drawable/corner">
+        <TextView
+            android:id="@+id/titreneiboring"
+            android:layout_marginTop="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:text="Neighboring Cells"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".CellSettings" >
+        <TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/tableLayout1"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:shrinkColumns="*"
+            android:stretchColumns="*">
+
+        </TableLayout>
+
+</ScrollView>
+    </LinearLayout>
+</LinearLayout>

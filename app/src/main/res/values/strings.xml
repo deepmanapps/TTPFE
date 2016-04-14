@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TTPFE</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_cell_settings">CellSettings</string>
+    <string name="title_activity_arc_gismap">ArcGISMap</string>
+    <string name="title_activity_voice_test">VoiceTest</string>
+    <string name="title_activity_voice_report">VoiceReport</string>
+    <string name="title_activity_data_test">DataTest</string>
+    <string name="title_activity_real_time_plot">RealTimePlot</string>
+</resources>
